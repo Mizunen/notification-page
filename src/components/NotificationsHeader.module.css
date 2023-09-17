@@ -1,0 +1,22 @@
+.notifications__number {
+  display: inline-block;
+  width: 1.75rem;
+  /* padding-top: 0.25rem; */
+  /* height: 2rem; */
+  color: hsl(0, 0%, 100%);
+  border-radius: 8px;
+  background-color: hsl(219, 85%, 26%);
+  text-align: center;
+}
+
+.mark-all {
+  background: none;
+  color: hsl(219, 12%, 42%);
+  border: none;
+  font-weight: 800;
+}
+
+.mark-all:hover {
+  cursor: pointer;
+  color: hsl(219, 85%, 26%);
+}
