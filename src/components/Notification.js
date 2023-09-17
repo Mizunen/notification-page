@@ -64,7 +64,9 @@ const Notification = (props) => {
     case "followed":
       notificationContent = (
         <>
-          <p>{userName} followed you</p> {time}
+          <p>
+            {userName} followed you {time}
+          </p>
           {!notification.wasSeen && notSeenContent}
         </>
       );
